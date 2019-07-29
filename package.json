@@ -1,0 +1,31 @@
+{
+  "name": "use-promise-reject-fallback",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "build/commonjs/index.js",
+  "module": "build/esm/index.js",
+  "types": "build/esm/index.d.ts",
+  "author": "Ozair Patel <ozairpatel2@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.x.x"
+  },
+  "scripts": {
+    "build": "yarn build:commonjs && yarn build:esm",
+    "build:commonjs": "tsc --outDir build/commonjs",
+    "build:esm": "tsc --module esnext --target esnext --outDir build/esm",
+    "test": "jest",
+    "prettier": "prettier src/**/*.ts"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.8",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.3"
+  }
+}

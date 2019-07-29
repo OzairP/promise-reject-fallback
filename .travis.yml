@@ -1,0 +1,13 @@
+language: node_js
+dist: trusty
+node_js:
+  - node
+cache:
+  yarn: true
+  directories:
+    - "~/.cache"
+install: yarn install --frozen-lockfile
+script:
+  - yarn prettier --check
+  - yarn test
+  - yarn build:esm
