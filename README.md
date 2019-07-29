@@ -1,6 +1,6 @@
 # Use Promise Reject Fallback
 
-![Build Status][https://travis-ci.com/ozairp/use-promise-reject-fallback.svg?branch=master]
+![Build Status](https://travis-ci.com/ozairp/use-promise-reject-fallback.svg?branch=master)
 
 ## Problem
 
