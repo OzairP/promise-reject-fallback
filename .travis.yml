@@ -6,8 +6,10 @@ cache:
   yarn: true
   directories:
     - "~/.cache"
-install: yarn install --frozen-lockfile
+install:
+  - yarn install --frozen-lockfile
+  - yarn global add codecov
 script:
   - yarn prettier --check
-  - yarn test
+  - yarn test && codecov
   - yarn build:esm
