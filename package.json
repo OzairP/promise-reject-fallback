@@ -1,6 +1,6 @@
 {
   "name": "promise-reject-fallback",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "types": "build/esm/index.d.ts",
   "main": "build/commonjs/index.js",
