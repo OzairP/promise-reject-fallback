@@ -16,6 +16,9 @@
     "fallback",
     "reject"
   ],
+  "files": [
+    "./build/{commonjs,esm}/!(*.test).{js,ts,map}"
+  ],
   "bugs": {
     "url": "https://github.com/OzairP/promise-reject-fallback/issues",
     "email": "ozairpatel2@gmail.com"
