@@ -1,6 +1,6 @@
 {
   "name": "promise-reject-fallback",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "types": "build/esm/index.d.ts",
   "main": "build/commonjs/index.js",
@@ -8,7 +8,14 @@
   "license": "MIT",
   "author": "Ozair Patel <ozairpatel2@gmail.com> (https://ozairpatel.com)",
   "description": "Add a rejection fallback handler to a Promise if no one handles it",
-  "keywords": ["promise", "rejection", "handler", "optional", "fallback", "reject"],
+  "keywords": [
+    "promise",
+    "rejection",
+    "handler",
+    "optional",
+    "fallback",
+    "reject"
+  ],
   "bugs": {
     "url": "https://github.com/OzairP/promise-reject-fallback/issues",
     "email": "ozairpatel2@gmail.com"
