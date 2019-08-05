@@ -1,6 +1,6 @@
 {
   "name": "promise-reject-fallback",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "types": "build/esm/index.d.ts",
   "main": "build/commonjs/index.js",
@@ -25,11 +25,12 @@
     "url": "https://github.com/OzairP/promise-reject-fallback.git"
   },
   "scripts": {
-    "build": "rimraf build && node_modules && yarn build:commonjs && yarn build:esm",
+    "build": "rimraf build && yarn build:commonjs && yarn build:esm",
     "build:commonjs": "tsc --outDir build/commonjs",
     "build:esm": "tsc --module esnext --target esnext --outDir build/esm",
     "test": "jest",
-    "prettier": "prettier src/**/*.ts"
+    "prettier": "prettier src/**/*.ts",
+    "prepublish": "yarn build"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
