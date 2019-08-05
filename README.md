@@ -1,6 +1,6 @@
-# Use Promise Reject Fallback
+# Promise Reject Fallback
 
-![Build Status](https://travis-ci.com/ozairp/use-promise-reject-fallback.svg?branch=master)
+![Build Status](https://travis-ci.org/OzairP/promise-reject-fallback.svg?branch=master)
 
 ## Problem
 
@@ -31,7 +31,7 @@ only if one wasn't added later in the chain.
 
 ```typescript
 import axios from 'axios'
-import { withFallback } from 'use-promise-reject-fallback'
+import { withFallback } from 'promise-reject-fallback'
 
 const fetchPosts = () =>
 	withFallback(() => axios.get('/posts'), error => alert(error))
