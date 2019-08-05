@@ -4,7 +4,13 @@
 [![codecov](https://codecov.io/gh/OzairP/promise-reject-fallback/branch/master/graph/badge.svg)](https://codecov.io/gh/OzairP/promise-reject-fallback)
 [![Greenkeeper badge](https://badges.greenkeeper.io/OzairP/promise-reject-fallback.svg)](https://greenkeeper.io/)
 
-## Problem
+```bash
+npm install promise-reject-fallback
+
+yarn add promise-reject-fallback
+```
+
+## Use Case
 
 You want to add a rejection handler to a Promise but you only want it to run if the consumer
 doesn't handle your promise rejection.
