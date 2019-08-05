@@ -1,8 +1,8 @@
 # Promise Reject Fallback
 
+[![Build Status](https://travis-ci.com/OzairP/use-promise-reject-fallback.svg?branch=master)](https://travis-ci.com/OzairP/use-promise-reject-fallback)
+[![codecov](https://codecov.io/gh/OzairP/promise-reject-fallback/branch/master/graph/badge.svg)](https://codecov.io/gh/OzairP/promise-reject-fallback)
 [![Greenkeeper badge](https://badges.greenkeeper.io/OzairP/promise-reject-fallback.svg)](https://greenkeeper.io/)
-
-![Build Status](https://travis-ci.com/OzairP/use-promise-reject-fallback.svg?branch=master)
 
 ## Problem
 
