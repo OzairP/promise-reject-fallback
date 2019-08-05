@@ -17,7 +17,9 @@
     "reject"
   ],
   "files": [
-    "./build/{commonjs,esm}/!(*.test).{js,ts,map}"
+    "build/commonjs",
+    "build/esm",
+    "src"
   ],
   "bugs": {
     "url": "https://github.com/OzairP/promise-reject-fallback/issues",
