@@ -893,10 +893,10 @@
   dependencies:
     "@types/jest-diff" "*"
 
-"@types/node@^12.6.8":
-  version "12.6.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.6.8.tgz#e469b4bf9d1c9832aee4907ba8a051494357c12c"
-  integrity sha512-aX+gFgA5GHcDi89KG5keey2zf0WfZk/HAQotEamsK2kbey+8yGKcson0hbK8E+v0NArlCJQCqMP161YhV6ZXLg==
+"@types/node@^13.9.6":
+  version "13.9.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.6.tgz#3371aa845ca4dfb86c2ff7a9a3bf62d86a3a59f6"
+  integrity sha512-ojnAmpyicIR0pS40ZA3dfOXeyRjNFMDcuImX8dVdqkfINnI/V6+cdyYnU7GaMIXeSPAfi3oCJaDLOYY927Rizw==
 
 "@types/stack-utils@^1.0.1":
   version "1.0.1"
